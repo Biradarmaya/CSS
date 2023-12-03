@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(/CSS/images/login);
+            background-repeat: no-repeat;
+            background-size: 50vw 100vh;
+        }
+        h1{
+            height: 50vh;
+            width: 50vw;
+            background-image: url("/CSS/images/Adminn-removebg-preview.png");
+            background-repeat: no-repeat;
+            background-size: 30vw 25vh;
+            background-position: 60vw 15vh;
+
+        }
+        #form{
+            height: 30vh;
+            width: 30vw;
+            margin-left: 60vw;
+            font-size:30px ;
+        }
+        form{
+            position: relative;
+            top: 50px;
+            left: 7vw;
+            line-height: 40px;
+
+            
+        }
+        input{
+            margin-left: 2vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="from">
+        <form action=""method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="un">username</label>
+
+                    </td>
+                    <td>
+                        <input type="text" name="un" id="un" placeholder="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass" id="pass" placeholder="password" required>
+                    </td>
+                    
+
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">submit</button>
+                    </td>
+                    <td>
+                        <button type="reset">reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    
+</body>
+</html>

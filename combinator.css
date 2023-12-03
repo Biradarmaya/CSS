@@ -1,0 +1,51 @@
+/* decendent */
+div h1{
+    color:blue;
+}
+
+/* child */
+div>h1{
+    color:blueviolet;
+}
+
+/* adjecent sibling  */
+div+p{
+    color:darkgreen;
+    background-color: aqua;
+}
+
+#abc{
+    height:200px;
+    width: 250px;
+    background-color: brown;
+}
+#xyz{
+    height: 4px;
+    width: 4px;
+    background-color: darkgreen;
+}
+#para1{
+    height:200px;
+    width: 250px;
+    background-color: gold;
+}
+
+#mmm{
+    height:200px;
+    width: 250px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pp{
+    height:100px;
+    width: 100px;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+

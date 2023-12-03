@@ -1,0 +1,30 @@
+#para{
+    color:aquamarine;
+}
+.demo{
+    color:yellow;
+    background-color: aqua;
+}
+b{
+    color:chartreuse;
+    background-color:blue;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+i,h2,h3{
+    color:brown;
+}
+*{
+    background-color:yellow;
+    font-size: 30px;
+}
+#uni1{
+    color:brown;
+    background-color: blueviolet;
+}
+.uni2,uni3{
+    color:aqua;
+    background-color: black;
+}
